@@ -1,6 +1,6 @@
 <template>
   <div class="card flex justify-center">
-      <InputText type="text" v-model="value" />
+      <InputText type="text" v-model="value":style="textStyle" />
   </div>
 </template>
 
