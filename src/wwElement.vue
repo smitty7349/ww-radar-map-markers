@@ -25,7 +25,7 @@ export default {
         }
       }
     });
-    this.$.appContext.app.component('input-text', InputText);
+    this.$.appContext.app.component('inputText', InputText);
   },
   props: {
     content: { type: Object, required: true },
